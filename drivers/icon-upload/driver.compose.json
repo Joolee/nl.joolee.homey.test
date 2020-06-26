@@ -1,0 +1,24 @@
+{
+	"id": "icon-upload",
+	"name": {
+		"en": "Icon upload"
+	},
+	"class": "sensor",
+	"capabilities": [],
+	"images": {
+		"large": "/drivers/icon-upload/assets/images/large.png",
+		"small": "/drivers/icon-upload/assets/images/small.png"
+	},
+	"pair": [
+		{
+			"id": "uploader",
+			"navigation": {
+				"next": "done"
+			}
+		},
+		{
+			"id": "done",
+			"template": "done"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "nl.joolee.homey.test",
+  "version": "1.0.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "Joolee's Test App"
+  },
+  "description": {
+    "en": "Used for testing and proof of concepts, not for publishing!"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Joolee 😀",
+    "email": "athom@joolee.nl"
+  },
+  "drivers": [
+    {
+      "id": "icon-upload",
+      "name": {
+        "en": "Icon upload"
+      },
+      "class": "sensor",
+      "capabilities": [],
+      "images": {
+        "large": "/drivers/icon-upload/assets/images/large.png",
+        "small": "/drivers/icon-upload/assets/images/small.png"
+      },
+      "pair": [
+        {
+          "id": "uploader",
+          "navigation": {
+            "next": "done"
+          }
+        },
+        {
+          "id": "done",
+          "template": "done"
+        }
+      ]
+    }
+  ]
+}

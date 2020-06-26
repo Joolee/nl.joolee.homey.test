@@ -1,0 +1,9 @@
+{
+  "name": "nl.joolee.homey.test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "homey": "^2.4.0"
+  },
+  "dependencies": {}
+}
