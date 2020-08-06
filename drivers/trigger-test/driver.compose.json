@@ -1,0 +1,18 @@
+{
+	"id": "trigger-test",
+	"name": {
+		"en": "Trigger test"
+	},
+	"class": "sensor",
+	"capabilities": [],
+	"images": {
+		"large": "/drivers/icon-upload/assets/images/large.png",
+		"small": "/drivers/icon-upload/assets/images/small.png"
+	},
+	"pair": [
+		{
+			"id": "list_devices",
+			"template": "list_devices"
+		}
+	]
+}

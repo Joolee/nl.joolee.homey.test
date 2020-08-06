@@ -1,0 +1,10 @@
+{
+	"triggers": [
+		{
+			"id": "rain_start",
+			"title": {
+				"en": "It starts raining"
+			}
+		}
+	]
+}
